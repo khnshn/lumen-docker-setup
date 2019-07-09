@@ -61,8 +61,6 @@ services:
     container_name: logdb
     restart: unless-stopped
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONOG_INITDB_ROOT_PASSWORD: nemul
       SERVICE_TAGS: dev
       SERVICE_NAME: mongodb
     ports:
